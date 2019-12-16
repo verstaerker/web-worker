@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .processing {
+      position: absolute;
+      width: 10vw;
+      height: 10vw;
+      background: red;
+      left: 0;
+      animation: increase 4s linear infinite;
+    }
+
+    @keyframes increase {
+      0% {
+        left: 0;
+      }
+      50% {
+        left: 90%;
+      }
+      100% {
+        left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="processing"></div>
+  <script src="main.js"></script>
+</body>
+</html>
